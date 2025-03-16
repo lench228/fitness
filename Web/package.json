@@ -10,6 +10,12 @@
     "preview": "vite preview",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "antd": "^5.24.3",
     "husky": "^9.1.7",
