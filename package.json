@@ -1,0 +1,31 @@
+{
+  "name": "fitness",
+  "version": "1.0.0",
+  "description": "```\r backend info...\r ```",
+  "homepage": "https://github.com/lench228/fitness#readme",
+  "bugs": {
+    "url": "https://github.com/lench228/fitness/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lench228/fitness.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "Web/**/*.{js, jsx, ts, tsx}": [
+      "npx prettier --write",
+      "npx eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0"
+  }
+}
