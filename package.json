@@ -19,7 +19,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "Web/src/**/*.{js, jsx, ts, tsx}": [
+    "./gWeb/src/**/*.{js, jsx, ts, tsx}": [
       "prettier --write",
       "eslint --fix"
     ]
