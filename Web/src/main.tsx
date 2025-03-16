@@ -6,6 +6,6 @@ sdfsdgfnkdsg;ZczXv
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />zxvzxv>,
+    <App />zxvzxvsdfsadfsdgsdg>,
 );
-xzvxzvzxv
+xzvxzvzxvgit
